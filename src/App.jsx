@@ -19,6 +19,9 @@ function App() {
         </div>
         <List people={people[0]} />
       </div>
+      <button type="button" className="btn" onClick={() => setPeople([])}>
+        Clear List
+      </button>
     </div>
   );
 }
